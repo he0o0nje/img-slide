@@ -4,12 +4,12 @@
     margin: 0;
     padding: 0;
 }
-ul, li {
+li {
     list-style: none;
 }
 .imgslide {
-    width: 650px;
-    height: 450px;
+    width: 600px;
+    height: 400px;
     background-color: #eee;
     margin: 0 auto;
     position: relative;
@@ -19,7 +19,6 @@ ul, li {
 }
 .slider {
     position: relative;
-    transition: 0.5s;
 }
 .slider li {
     float: left;
@@ -27,11 +26,9 @@ ul, li {
 .slider li img {
     vertical-align: top;
 }
-button {
-    background: none;
-    border: none;
+a {
+    text-decoration: none;
     font-size: 25px;
-    cursor: pointer;
     color: #bbb;
     z-index: 1000;
 }
