@@ -13,6 +13,7 @@ li {
     background-color: #eee;
     margin: 0 auto;
     position: relative;
+    overflow: hidden;
 }
 .img_wrap {
     overflow: hidden;
@@ -29,7 +30,7 @@ li {
 a {
     text-decoration: none;
     font-size: 25px;
-    color: #bbb;
+    color: #ccc;
     z-index: 1000;
 }
 .prev {
