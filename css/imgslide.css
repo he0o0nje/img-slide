@@ -1,2 +1,47 @@
 @charset "UTF-8";
 
+* {
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+    list-style: none;
+}
+.imgslide {
+    width: 650px;
+    height: 450px;
+    background-color: #eee;
+    margin: 0 auto;
+    position: relative;
+}
+.img_wrap {
+    overflow: hidden;
+}
+.slider {
+    position: relative;
+    transition: 0.5s;
+}
+.slider li {
+    float: left;
+}
+.slider li img {
+    vertical-align: top;
+}
+button {
+    background: none;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: #bbb;
+    z-index: 1000;
+}
+.prev {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+.next {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+}
