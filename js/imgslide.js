@@ -53,4 +53,21 @@ window.onload = function () {
             }
           }
       }
+
+      function autoslide() {
+        move(-1);
+        if (currentIdx === slidercopyli.length -1)
+          setTimeout(() => {
+            slider.style.transition = 'none';
+            currentIdx = 1;
+            translate = -liWidth;
+            slider.style.transform = `translateX(${translate}px)`;
+          }, speedTime);
+      }
+
+      function sliding() {
+        setInterval(autoslide, 2000);
+      }
+
+      sliding();
 };
